@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    background-color: rgb(224, 221, 221);
+    height: 100px;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0px 20px;
+    box-shadow: 2px 2px 15px rgb(151, 150, 150);
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 15px rgb(138, 137, 137);
+    margin-top: 50px;
+
+}
+footer h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#firstWord{
+    font-size: 30px;
+    color: rgb(241, 145, 54);  
+}
+.buttons button{ 
+    background-color: transparent;
+    border: none;
+   
+}
+.buttons a{
+    text-decoration:none;
+    color: black;
+    font-weight: 750;
+    font-size: 21px;
+    padding: 10px ;
+}
+#line{
+    font-size: 50px;
+    padding-left: 40px;
+    margin-bottom: 0;
+    width: auto;
+}
+#content{
+    font-size: 25px;
+    color: rgb(173, 177, 180);
+    font-weight: 100;
+    padding-left: 40px;
+    
+}
+.quote-section{
+    display:flex;
+    align-items: start;
+    justify-content:center;
+    flex-direction:column;
+    gap: 20px;
+    
+
+}
+.about-section{
+    display: flex;
+    align-items: start;
+    justify-content:top;
+    flex-direction:column;
+    gap: 20px;
+    width: 60%;
+    padding-left: 10px;
+}    
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+#imgOfLady{
+   width: auto;
+   margin-top: 20px;
+   
+}
+@media only screen and (max-width: 800px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+    
+  }
+.Order{
+    background-color:rgb(250, 76, 12);
+    color: hsl(30, 9%, 96%);
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 40px;
+    border: none;   
+}
+.recipe-hero{
+    text-align: center;
+}
+.recipe-hero p{
+    font-size: 25px;
+}
+.recipe-body{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+   justify-content: center;
+   gap: 40px;
+}
+.recipe-card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    gap: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px  rgb(167, 166, 166);
+}
+.recipe-card img{
+    width: 200px;
+    border-radius: 10px;
+}
+.card-hero{
+    padding: 10px 10px;   
+}
+.Order-now{
+    background-color:rgb(250, 76, 12);
+    color: white;
+    border-radius: 30px;
+    border: none;   
+    font-size: large;
+    padding: 5px 10px;
+}
+.food-body{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 15px;
+ }
+ 
